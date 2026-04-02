@@ -55,13 +55,16 @@ A curated, non exhaustive list of ideas to participate in the Solana Frontier Ha
 
 ## Reference
 
-### Skills and Resources
+### Resources
 | Resource | URL | What |
 |----------|-----|------|
 | ZK Compression docs | [zkcompression.com](https://zkcompression.com) | Light Token APIs, PDA accounts, ZK compression. General skill: `npx skills add https://zkcompression.com` |
 | Solana docs | [solana.com/docs](https://solana.com/docs) | Core Solana development, Token2022, Confidential Balances. |
-| Awesome Solana AI | [github.com/solana-foundation/awesome-solana-ai](https://github.com/solana-foundation/awesome-solana-ai) | Curated list: agent kits, MCP servers, x402 tools, wallets, dev tools. |
 | Blueshift | [blueshift.gg](https://blueshift.gg/) | Free Solana courses: on-chain programs, mobile dev, SVM internals. [Agentic hackathon](https://agentic-hackathon.blueshift.gg/). |
+
+### Agent Skills 
+
+| Awesome Solana AI | [github.com/solana-foundation/awesome-solana-ai](https://github.com/solana-foundation/awesome-solana-ai) | Curated list: agent kits, MCP servers, x402 tools, wallets, dev tools. |
 | Solana Agent Kit | [github.com/sendaifun/solana-agent-kit](https://github.com/sendaifun/solana-agent-kit) | 60+ pre-built actions for agents: DeFi, tokens, NFTs, payments. |
 | Light Protocol skills | [github.com/Lightprotocol/skills](https://github.com/Lightprotocol/skills/tree/main/skills/payments) | Payment skill for agents: `npx skills add Lightprotocol/skills` |
 
