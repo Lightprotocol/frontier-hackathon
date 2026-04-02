@@ -8,9 +8,8 @@ A curated, non exhaustive list of ideas to participate in the Solana Frontier Ha
 - Split payments: group expense splitting, auto-settle in USDC
 - Recurring payments: scheduled USDC transfers using token delegation (approve + periodic pull)
 - Merchant checkout: Solana Pay integration with invoice generation and webhook callbacks
-- Cross-border remittance: USDC to local currency via off-ramp (MoonPay/Meso), Light Token accounts for recipients with no wallet
-- Light Token payroll: send USDC to 10,000 recipients at ~0.00001 SOL per account vs. ~0.002 SOL for SPL
-- 
+- Payroll and Cross-border remittance: USDC to local currency via off-ramp (MoonPay/Meso), Light Token accounts for recipients with no wallet
+
 ## AI Agents
 
 ### Identity and Discovery
