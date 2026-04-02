@@ -63,22 +63,21 @@ A curated, non exhaustive list of ideas to participate in the Solana Frontier Ha
 | Solana docs | [solana.com/docs](https://solana.com/docs) | Core Solana development, Token2022, Confidential Balances. |
 | Awesome Solana AI | [github.com/solana-foundation/awesome-solana-ai](https://github.com/solana-foundation/awesome-solana-ai) | Curated list: agent kits, MCP servers, x402 tools, wallets, dev tools. |
 | Blueshift | [blueshift.gg](https://blueshift.gg/) | Free Solana courses: on-chain programs, mobile dev, SVM internals. [Agentic hackathon](https://agentic-hackathon.blueshift.gg/). |
-| Solana Agent Kit | [github.com/sendai/solana-agent-kit](https://github.com/sendaifun/solana-agent-kit) | 60+ pre-built actions for agents: DeFi, tokens, NFTs, payments. |
+| Solana Agent Kit | [github.com/sendaifun/solana-agent-kit](https://github.com/sendaifun/solana-agent-kit) | 60+ pre-built actions for agents: DeFi, tokens, NFTs, payments. |
 | Light Protocol skills | [github.com/Lightprotocol/skills](https://github.com/Lightprotocol/skills/tree/main/skills/payments) | Payment skill for agents: `npx skills add Lightprotocol/skills` |
 
-### Agent Payment protocols
-| Protocol |
-|----------|
-| [x402](https://www.x402.org/) |
-| [MPP](https://mpp.dev/overview) |
+### Agent Payment Protocols
+| Protocol | Model |
+|----------|-------|
+| [x402](https://www.x402.org/) | Per-request, stablecoins only |
+| [MPP](https://mpp.dev/overview) | Session-based, cards + stablecoins + Lightning |
 
 ### Agent Standards
-
-Here's how it all fits together:
-
-Same wallet address across all five layers. One identity, one reputation, portable across every interface.
-
-ERC-8004: Trustless Agents https://eips.ethereum.org/EIPS/eip-8004 lets agents find services and check reputation
-ERC-8183: Agent Commerce  https://eips.ethereum.org/EIPS/eip-8183 lets agents do complex jobs with escrow and verification
-ERC-8128: HTTP Message Signatures  https://eips.ethereum.org/EIPS/eip-8128 ERC-8128 lets agents prove who they are per-request
-ERC-5564: https://eips.ethereum.org/EIPS/eip-5564 Stealth Addresses lets agents transact without leaving a public trail
+| Standard | What |
+|----------|------|
+| [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004) | Trustless Agents: on-chain identity, service discovery, reputation |
+| [ERC-8183](https://eips.ethereum.org/EIPS/eip-8183) | Agent Commerce: job escrow, provider submission, evaluator approve/reject |
+| [ERC-8128](https://eips.ethereum.org/EIPS/eip-8128) | HTTP Message Signatures: per-request Ed25519 auth, no stored tokens |
+| [ERC-5564](https://eips.ethereum.org/EIPS/eip-5564) | Stealth Addresses: one-time receive addresses, sender/receiver unlinkable |
+| [Solana Agent Registry](https://solana.com/agent-registry/what-is-agent-registry) | PDA-based identity, A2A agent cards, MCP endpoints |
+| [Open Wallet Standard](https://www.moonpay.com/newsroom/open-wallet-standard) | Multi-chain encrypted vault, keys never exposed to agent |
