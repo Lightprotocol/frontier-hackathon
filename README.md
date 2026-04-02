@@ -61,6 +61,7 @@ A curated, non exhaustive list of ideas to participate in the Solana Frontier Ha
 | ZK Compression docs | [zkcompression.com](https://zkcompression.com) | Light Token APIs, PDA accounts, ZK compression. |
 | Solana docs | [solana.com/docs](https://solana.com/docs) | Core Solana development. |
 | Blueshift | [blueshift.gg](https://blueshift.gg/) | Free Solana courses: on-chain programs, mobile dev, SVM internals. |
+| Helius | [helius-labs/solana-awesome](https://github.com/helius-labs/solana-awesome) | Curated List of Solana Resources. |
 
 ### Agent Skills 
 
