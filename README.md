@@ -58,9 +58,9 @@ A curated, non exhaustive list of ideas to participate in the Solana Frontier Ha
 ### Resources
 | Resource | URL | What |
 |----------|-----|------|
-| ZK Compression docs | [zkcompression.com](https://zkcompression.com) | Light Token APIs, PDA accounts, ZK compression. General skill: `npx skills add https://zkcompression.com` |
-| Solana docs | [solana.com/docs](https://solana.com/docs) | Core Solana development, Token2022, Confidential Balances. |
-| Blueshift | [blueshift.gg](https://blueshift.gg/) | Free Solana courses: on-chain programs, mobile dev, SVM internals. [Agentic hackathon](https://agentic-hackathon.blueshift.gg/). |
+| ZK Compression docs | [zkcompression.com](https://zkcompression.com) | Light Token APIs, PDA accounts, ZK compression. |
+| Solana docs | [solana.com/docs](https://solana.com/docs) | Core Solana development. |
+| Blueshift | [blueshift.gg](https://blueshift.gg/) | Free Solana courses: on-chain programs, mobile dev, SVM internals. |
 
 ### Agent Skills 
 
