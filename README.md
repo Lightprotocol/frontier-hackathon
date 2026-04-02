@@ -10,15 +10,7 @@ A curated, non exhaustive list of ideas to participate in the Solana Frontier Ha
 - Merchant checkout: Solana Pay integration with invoice generation and webhook callbacks
 - Cross-border remittance: USDC to local currency via off-ramp (MoonPay/Meso), Light Token accounts for recipients with no wallet
 - Light Token payroll: send USDC to 10,000 recipients at ~0.00001 SOL per account vs. ~0.002 SOL for SPL
-
-## Prediction Markets
-
-- Kalshi positions as lending collateral via [DFlow](https://solana.com/news/dflow-prediction-markets-api) (positions are SPL tokens, $20B+ with 0% borrowing utilization)
-- Parlay engine: combine 2-4 Kalshi/DFlow positions into a single composite SPL token with multiplied odds ([PredictShark](https://polymark.et/product/predictshark) does this on Polygon, nothing on Solana yet)
-- Prediction market oracle: price Kalshi positions from order book data for use as DeFi collateral
-- Prediction market aggregator across Kalshi, DFlow, and other sources (Capitola won $25K at the Cypherpunk hackathon with this concept)
-- Agent-managed prediction portfolio: AI agent monitors markets for mispriced outcomes, rebalances via DFlow, pays for data feeds via x402, spending constrained by Light Token spend permissions
-
+- 
 ## AI Agents
 
 ### Identity and Discovery
@@ -44,6 +36,14 @@ A curated, non exhaustive list of ideas to participate in the Solana Frontier Ha
 - Light-PDA AMM: LP positions as Light-PDAs with no rent-exemption per position ([cp-swap-reference](https://github.com/Lightprotocol/cp-swap-reference))
 - RWA yield aggregator: compare yields across Ondo (OUSG), Spiko (SAFO), Maple on Solana; auto-allocate by risk/duration, expose as x402-gated API for agent treasury management
 
+## Prediction Markets
+
+- Kalshi positions as lending collateral via [DFlow](https://solana.com/news/dflow-prediction-markets-api) (positions are SPL tokens, $20B+ with 0% borrowing utilization)
+- Parlay engine: combine 2-4 Kalshi/DFlow positions into a single composite SPL token with multiplied odds ([PredictShark](https://polymark.et/product/predictshark) does this on Polygon, nothing on Solana yet)
+- Prediction market oracle: price Kalshi positions from order book data for use as DeFi collateral
+- Prediction market aggregator across Kalshi, DFlow, and other sources (Capitola won $25K at the Cypherpunk hackathon with this concept)
+- Agent-managed prediction portfolio: AI agent monitors markets for mispriced outcomes, rebalances via DFlow, pays for data feeds via x402, spending constrained by Light Token spend permissions
+
 ## Privacy and ZK
  
 - Private stablecoin transfers: Token-2022 Confidential Balances + Light Token for scale
@@ -67,10 +67,10 @@ A curated, non exhaustive list of ideas to participate in the Solana Frontier Ha
 | Light Protocol skills | [github.com/Lightprotocol/skills](https://github.com/Lightprotocol/skills/tree/main/skills/payments) | Payment skill for agents: `npx skills add Lightprotocol/skills` |
 
 ### Agent Payment Protocols
-| Protocol | Model |
-|----------|-------|
-| [x402](https://www.x402.org/) | Per-request, stablecoins only |
-| [MPP](https://mpp.dev/overview) | Session-based, cards + stablecoins + Lightning |
+| Protocol |
+|----------|
+| [x402](https://www.x402.org/) |
+| [MPP](https://mpp.dev/overview) |
 
 ### Agent Standards
 | Standard | What |
