@@ -64,6 +64,8 @@ A curated, non exhaustive list of ideas to participate in the Solana Frontier Ha
 
 ### Agent Skills 
 
+| Resource | URL | What |
+|----------|-----|------|
 | Awesome Solana AI | [github.com/solana-foundation/awesome-solana-ai](https://github.com/solana-foundation/awesome-solana-ai) | Curated list: agent kits, MCP servers, x402 tools, wallets, dev tools. |
 | Solana Agent Kit | [github.com/sendaifun/solana-agent-kit](https://github.com/sendaifun/solana-agent-kit) | 60+ pre-built actions for agents: DeFi, tokens, NFTs, payments. |
 | Light Protocol skills | [github.com/Lightprotocol/skills](https://github.com/Lightprotocol/skills/tree/main/skills/payments) | Payment skill for agents: `npx skills add Lightprotocol/skills` |
