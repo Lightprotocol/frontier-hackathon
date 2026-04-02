@@ -1,6 +1,6 @@
 # Hackathon Ideas
 
-A curated, non exhaustive list of Ideas for 
+A curated, non exhaustive list of ideas to participate in the Solana Frontier Hackathon.
 
 ## Payments and Stablecoins
 
@@ -65,17 +65,20 @@ A curated, non exhaustive list of Ideas for
 | Blueshift | [blueshift.gg](https://blueshift.gg/) | Free Solana courses: on-chain programs, mobile dev, SVM internals. [Agentic hackathon](https://agentic-hackathon.blueshift.gg/). |
 | Solana Agent Kit | [github.com/sendai/solana-agent-kit](https://github.com/sendaifun/solana-agent-kit) | 60+ pre-built actions for agents: DeFi, tokens, NFTs, payments. |
 | Light Protocol skills | [github.com/Lightprotocol/skills](https://github.com/Lightprotocol/skills/tree/main/skills/payments) | Payment skill for agents: `npx skills add Lightprotocol/skills` |
-| x402 hackathon | [solana.com/x402/hackathon](https://solana.com/x402/hackathon) | Skills, facilitator guides, bounties for x402 on Solana. |
 
 ### Agent Payment protocols
-| Protocol | Who | Model |
-|----------|-----|-------|
-| [x402](https://www.x402.org/) | Coinbase + Cloudflare | Per-request, stablecoins only |
-| [MPP](https://mpp.dev/overview) | Stripe + Tempo | Session-based, cards + stablecoins + Lightning |
+| Protocol |
+|----------|
+| [x402](https://www.x402.org/) |
+| [MPP](https://mpp.dev/overview) |
 
-### Agent identity standards
-| Standard | Chain |
-|----------|-------|
-| [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004) | Ethereum |
-| [Solana Agent Registry](https://solana.com/agent-registry/what-is-agent-registry) | Solana |
-| [Open Wallet Standard](https://www.moonpay.com/newsroom/open-wallet-standard) | Multi-chain |
+### Agent Standards
+
+Here's how it all fits together:
+
+Same wallet address across all five layers. One identity, one reputation, portable across every interface.
+
+ERC-8004: Trustless Agents https://eips.ethereum.org/EIPS/eip-8004 lets agents find services and check reputation
+ERC-8183: Agent Commerce  https://eips.ethereum.org/EIPS/eip-8183 lets agents do complex jobs with escrow and verification
+ERC-8128: HTTP Message Signatures  https://eips.ethereum.org/EIPS/eip-8128 ERC-8128 lets agents prove who they are per-request
+ERC-5564: https://eips.ethereum.org/EIPS/eip-5564 Stealth Addresses lets agents transact without leaving a public trail
